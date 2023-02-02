@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+hr {
+    width: 500px;
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+
+    background-color: #f8f6f5;
+    border: 6px solid #799c9b;
+    border-radius: 10px;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.tile {
+    width: 90px;
+    height: 90px;
+    border: 5px solid #faf9f9;
+    
+
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* colored tiles */
+
+.x2 {
+    background-color: #1f802f;
+    color: #fbfaff;
+    border-radius: 50px;
+    border-color:white;
+}
+
+.x4 {
+    background-color: #17045a;
+    color: #fbfaff;
+    border-radius: 50px;
+    border-color:white;
+}
+
+.x8 {
+    background-color: #0774a7;
+    color:#fbfaff;
+    border-radius: 50px;
+    border-color:white;
+}
+
+.x16{
+    background-color: #681d04;
+    color: #fbfaff;
+    border-radius: 50px;
+    border-color:white;
+}
+
+.x32{
+    background-color: #728508;
+    color: #fbfaff;
+    border-radius: 50px;
+    border-color:white;
+}
+
+.x64{
+    background-color: #b81611;
+    color: #fbfaff;
+    border-radius: 50px;
+    border-color:white;
+}
+
+.x128{
+    background-color: #a30d69;
+    color: #fbfaff;
+    border-radius: 50px;
+    border-color:white;
+}
+
+.x256{
+    background-color: #e9b91b;
+    color: #fbfaff;
+    border-radius: 50px;
+    border-color:white;
+}
+
+.x512{
+    background-color: #6c08a5;
+    color: #fbfaff;
+    border-radius: 50px;
+    border-color:white;
+}
+
+.x1024{
+    background-color: #449e6a;
+    color: #fbfaff;
+    border-radius: 50px;
+    border-color:white;
+}
+
+.x2048{
+    background-color: #ee2214;
+    color: #fbfaff;
+    border-radius: 50px;
+    border-color:white;
+}
+
+.x4096 {
+    background-color: #bafe3d;
+    color: #fbfaff;
+    border-radius: 50px;
+    border-color:white;
+}
+
+.x8192 {
+    background-color: #d223e9;
+    color: #fbfaff;
+    border-radius: 50px;
+    border-color:white;
+}
